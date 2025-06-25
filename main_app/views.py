@@ -5,7 +5,7 @@ from django.utils import timezone
 from datetime import timedelta
 
 from .models import Asset, Notification, Violation
-from .serializers import AssetSerializer, NotificationSerializer, ViolationSerializer
+from .serializers import AssetSerializer
 
 class AssetView(APIView):
     def get(self, request):
