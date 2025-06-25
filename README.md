@@ -21,6 +21,7 @@
    ```
 
 ## Directory structure
+```text
 asset_management/
 ├── assets/
 │ ├── models.py
@@ -34,4 +35,5 @@ asset_management/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+``
 
